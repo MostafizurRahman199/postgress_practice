@@ -131,3 +131,5 @@ FROM orders
 WHERE EXTRACT(YEAR FROM order_date) = 2024
 GROUP BY month_name, month_start
 ORDER BY month_start;
+
+
